@@ -1,0 +1,26 @@
+<html>
+<head><style>
+table, th, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style></head>
+<body>
+<table>
+  <p>Zbrajanje</p>
+  <tr>
+    <th>a</th>
+    <th>{$= "varA" "1" @tparamGet$}</th>
+  </tr>
+  <tr>
+	<th>b</th>
+    <th>{$= "varB" "2" @tparamGet$}</th>
+  </tr>
+  <tr>
+	<th>a + b</th>
+    <th>{$= "zbroj" "3" @tparamGet$}</th>
+  </tr>
+</table>
+<img src="{$= "imgName" " " @tparamGet $}">
+</body>
+</html>

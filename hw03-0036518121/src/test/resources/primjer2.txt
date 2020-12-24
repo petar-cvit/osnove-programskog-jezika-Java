@@ -1,0 +1,2 @@
+Ovo je 
+sve jedan \{$ text node

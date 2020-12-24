@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p>{$= "message" " " @pparamGet $}</p>
+		<a href="./Home">Home</a><br>
+	</body>
+</html>

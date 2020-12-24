@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<style>
+			body {background-color: #{$= "bgcolor" "7F7F7F" @pparamGet $};}
+		</style>
+	</head>
+	<body>
+		<a href="../scripts/osnovni.smscr">Osnovni</a><br>
+		<a href="../scripts/brojPoziva.smscr">Broj poziva</a><br>
+		<a href="../scripts/fibonacci.smscr">Fibonacci</a><br>
+		<hr>		
+		<a href="../ext/HelloWorker">Hello</a><br>
+		<a href="../ext/CircleWorker">Circle</a><br>
+		<hr>
+		<form action="/ext/SumWorker" method="GET">
+			<label for="a">A:</label>
+			<input type="text" id="a" name="a" value="1"><br>
+			<label for="b">B:</label>
+			<input type="text" id="b" name="b" value="2"><br><br>
+			<input type="submit" value="Submit operands">
+		</form>
+		<hr>
+		<form action="/ext/BgColorWorker" method="GET">
+			<select name="bgcolor">
+	  			<option value="FF0000">Red</option>
+	  			<option value="00FF00">Green</option>
+	  			<option value="0000FF">Blue</option>
+	  			<option value="FFFF00">Yellow</option>
+	  			<option value="7F7F7F">Grey</option>
+			</select><br>
+			<input type="submit" value="Submit color">
+		</form>
+	</body>
+</html>

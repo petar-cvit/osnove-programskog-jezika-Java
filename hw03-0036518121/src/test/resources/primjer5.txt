@@ -1,0 +1,2 @@
+Ovo se ruši "s iznimkom \n" 
+jer je escape ilegalan ovdje.

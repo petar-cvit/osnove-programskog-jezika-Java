@@ -1,0 +1,3 @@
+Ovo se ruši {$ = "String ide
+u više \{$ redaka
+čak tri" $}

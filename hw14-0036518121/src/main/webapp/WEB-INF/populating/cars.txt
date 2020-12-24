@@ -1,0 +1,8 @@
+Glasanje za najdraži automobil:
+INSERT INTO Polls (title, message) VALUES ('Glasanje za najdraži automobil:', 'Od sljedećih automobila, koji Vam je automobil najljepši? Kliknite na link kako biste glasali!')
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('BMW', 'https://www.bmw.com/en/index.html', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('Škoda', 'https://www.skoda.hr/', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('Mercedes', 'https://www.mercedes-benz.com/en/', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('VW', 'https://www.vw.com/', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('Volvo', 'https://www.volvo.com/home.html', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('Saab', 'https://saab.com/', ?, 0)

@@ -1,0 +1,9 @@
+Glasanje za omiljeni bend:
+INSERT INTO Polls (title, message) VALUES ('Glasanje za omiljeni bend:', 'Od sljedećih bendova, koji Vam je bend najdraži? Kliknite na link kako biste glasali!')
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Beatles', 'https://www.youtube.com/watch?v=z9ypq6_5bsg', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Platters', 'https://www.youtube.com/watch?v=H2di83WAOhU', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Beach Boys', 'https://www.youtube.com/watch?v=2s4slliAtQU', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Four Seasons', 'https://www.youtube.com/watch?v=y8yvnqHmFds', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Marcels', 'https://www.youtube.com/watch?v=qoi3TH59ZEs', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Everly Brothers', 'https://www.youtube.com/watch?v=tbU3zdAgiX8', ?, 0)
+INSERT INTO PollOptions (optionTitle, optionLink, pollID, votesCount) VALUES ('The Mamas and the Papas', 'https://www.youtube.com/watch?v=N-aK6JnyFmk', ?, 0)
